@@ -4,11 +4,11 @@ var seaImg,shipImg;
 function preload(){
 
 
-//   shipImg1 = loadAnimation("ship-1.png");
-//   shipImg1 = loadAnimation("ship-1.png");
-//   shipImg1 = loadAnimation("ship-1");
+  // shipImg1 = loadAnimation("ship-1.png");
+  // shipImg1 = loadAnimation("ship-1.png");
+  // shipImg1 = loadAnimation("ship-1");
   shipImg1 = loadAnimation("ship-1.png","ship-2.png","ship-1.png","ship-2.png");
-//   shipImg1 = loadAnimation("ship-1","ship-2","ship-1","ship-2");
+  // shipImg1 = loadAnimation("ship-1","ship-2","ship-1","ship-2");
   
   seaImg = loadImage("sea.png");
 }
@@ -34,10 +34,10 @@ function draw() {
   sea.velocityX = -3;
 
   if(sea.x < 0){
-//     sea.x = 0;
-//     sea.x = sea.width;
+    // sea.x = 0;
+    // sea.x = sea.width;
     sea.x = sea.width/8;
-//     sea.y = height;
+    // sea.y = height;
   }
 
  
